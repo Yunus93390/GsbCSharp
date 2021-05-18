@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GSB_CS_AIY</name>
+    </assembly>
+    <members>
+        <member name="F:GSB_CS_AIY.ConnexionSql.connection">
+            Variable locale pour stocker une référence vers l'instance
+        </member>
+        <member name="M:GSB_CS_AIY.ConnexionSql.getInstance(System.String,System.String,System.String,System.String)">
+            méthode de création d'une instance de connexion si elle n'existe pas (singleton)
+            Etabli la connexion à la BDD
+        </member>
+        <member name="M:GSB_CS_AIY.ConnexionSql.openConnection">
+            Ouverture de la connexion
+        </member>
+        <member name="M:GSB_CS_AIY.ConnexionSql.closeConnection">
+            Fermeture de la connexion
+        </member>
+        <member name="M:GSB_CS_AIY.ConnexionSql.reqExec(System.String)">
+            Exécutiuon d'une requête
+        </member>
+        <member name="M:GSB_CS_AIY.Form1.majCR">
+            <summary>
+              Permet de vérifier si on se situe entre le 1er et le 10 du mois
+              si l'état est 'CR' alors on passe à 'CL'
+            </summary>
+        </member>
+        <member name="M:GSB_CS_AIY.Form1.majRB">
+            <summary>
+              Permet de vérifier si on se situe entre le 20 et le 30 du mois
+              si l'état est 'VA' alors on passe à 'RB'
+            </summary>
+        </member>
+        <member name="M:GSB_CS_AIY.Form1.affiche">
+            <summary>
+              Permet d'afficher sous forme de tableau (DataGridView) les informations de la requete
+            </summary>
+        </member>
+        <member name="M:GSB_CS_AIY.Form1.timer1_Tick(System.Object,System.EventArgs)">
+            <summary>
+               Timer qui relance toutes les 10 secondes
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:GSB_CS_AIY.Form1.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:GSB_CS_AIY.Form1.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:GSB_CS_AIY.Form1.InitializeComponent">
+            <summary>
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="M:GSB_CS_AIY.Program.Main">
+            <summary>
+            Point d'entrée principal de l'application.
+            </summary>
+        </member>
+        <member name="T:GSB_CS_AIY.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:GSB_CS_AIY.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:GSB_CS_AIY.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>
